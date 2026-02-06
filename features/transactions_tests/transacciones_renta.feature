@@ -5,11 +5,12 @@ Feature: Transaccionar Renta
 
   Scenario Outline:
     Given usuario con "<type_MDP>"  y con suscripcion CV mensual
-    When  usuario intenta realizar renta de contenido tipo "<type_renta>"  
-    Then  usuario recibe mensaje "<status_purchase_msg>"  
+    When  usuario realiza transacción desde botón "Alquilar" en contenido tipo "<type_renta>" con "<costo_renta>" y "<vigencia_renta>"
+    And   usuario confirma el alquiler  en "<pantalla_estas_por_alquilar>" con "<costo_renta>" y "<vigencia_renta>"
+    Then  usuario debe recibir "<pantalla_checkout_exitosa>" confirmando <costo_renta>" y "<vigencia_renta>"
+
 
   Examples:
-    |type_renta         |status_purchase_msg     |type_MDP|   
+    |type_renta         |status_purchase_msg     |type_MDP|   costo_renta   |vigencia_renta  |pantalla_estas_por_alquilar|pantalla_checkout_exitosa|
     #datos en CSV (add_on_subs) para consumir desde step definition
-    #metodo AMCO (solo usuarios internos)  ej 660061,Transaccion exitosa,amco
-    #metodo serial (STB) ej 660061,Transaccion exitosa,serial
+   #ej 654321,Transaccion exitosa,amco,$200,48 hrs,class="checkoutPaymentFormContainer",Pantalla de checkout exitoso
