@@ -14,7 +14,7 @@ Feature: Inicio de sesion en STB OTT, usuario valido, usuario no valido.
 
         Examples: usuarios_ott_ok.csv
             |email              |contrasena     |resultado                  |estatus_usuario |
-            #EX |prueba1@gmail.com  |Claro123       |'profile_seleccion'    | valido         |
+            #EX |prueba1@gmail.com  |Claro123       |xpath=profile_seleccion    | valido         |
 
     @login_no_exitoso @login_email_invalido
     Scenario Outline: login no exitoso con correo no valido.

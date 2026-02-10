@@ -1,0 +1,31 @@
+addon,costo,type_MDP,checkout_estas_por__contratar,pantalla_checkout_exitosa
+
+Universal +,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Picardia,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Quello,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Edye,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+RTVE,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Stingray,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+MGM,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+AtresPlayer,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Fox Sports,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+crunchyroll,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+sonyone,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+CVmensual,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Fox one,$22,amco,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+
+
+
+Universal +,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Picardia,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Quello,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Edye,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+RTVE,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Stingray,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+MGM,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+AtresPlayer,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Fox Sports,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+crunchyroll,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+sonyone,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+CVmensual,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"
+Fox one,$22,serial,xpath="checkout_estas_por__contratar|",xpath="Pantalla de checkout exitosa"

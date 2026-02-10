@@ -10,7 +10,7 @@ Feature: Inicio de sesion en STB serial, serial valido, serial no valido **(rewr
 
         Examples: usuarios_seriales_iptv_validos.csv
             |serial|resultado|
-            #ej |prueba1@gmail.com    |'profile_seleccion'    |
+            #ej |ZTEATV41200387635   |xpath=profile_seleccion
 
 
 
@@ -21,7 +21,7 @@ Feature: Inicio de sesion en STB serial, serial valido, serial no valido **(rewr
 
         Examples: usuarios_seriales_iptv_validos.csv
             |serial|resultado|
-            #ej |prueba1@gmail.com    |'profile_seleccion'    |
+            #ej |ZTEATV41200387635    |xpath=profile_seleccion    |
 
     
     
@@ -32,4 +32,4 @@ Feature: Inicio de sesion en STB serial, serial valido, serial no valido **(rewr
 
         Examples: usuarios_seriales_iptv_novalidos.csv
             |serial|resultado|
-            #ej |prueba2@gmail.com  |'alerta_serial_no_valido'|
+            #ej |00EATV41200387635 |'alerta_serial_no_valido'|

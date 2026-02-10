@@ -1,2 +1,2 @@
 email,contrasena,resultado,estatus_usuario
-prueba1@gmail.com,Claro123,profile_seleccion,activo
+prueba1@gmail.com,Claro123,xpath=profile_seleccion,activo

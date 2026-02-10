@@ -1,3 +1,10 @@
 type_renta,status_purchase_msg,type_MDP,costo_renta,vigencia_renta,pantalla_estas_por_alquilar,pantalla_checkout_exitosa
-654321,Transaccion exitosa,amco,$200,48 hrs,class="checkoutPaymentFormContainer",Pantalla de checkout exitoso
-987654,Transaccion exitosa,amco,$200,24 hrs,class="checkoutPaymentFormContainer",Pantalla de checkout exitoso
+
+654321,Transaccion exitosa,amco,$200,48 hrs,xpath="checkoutPaymentFormContainer",xpath="Pantalla de checkout exitoso"
+987654,Transaccion exitosa,amco,$200,24 hrs,xpath="checkoutPaymentFormContainer",xpath="Pantalla de checkout exitoso"
+
+
+
+654321,Transaccion exitosa,serial,$200,48 hrs,xpath="checkoutPaymentFormContainer",xpath="Pantalla de checkout exitoso"
+987654,Transaccion exitosa,serial,$200,24 hrs,xpath="checkoutPaymentFormContainer",xpath="Pantalla de checkout exitoso"
+
