@@ -1,4 +1,4 @@
-Feature: Inicio de sesion en STB OTT, usuario valido, usuario no valido.
+Feature: LOGIN, Inicio de sesion en STB OTT, usuario valido, usuario no valido.
 
     Background: 
         Given STB sin sesion iniciada OTT

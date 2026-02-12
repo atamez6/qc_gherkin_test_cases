@@ -8,7 +8,7 @@ Feature: Revisar lineup (lista de canales) por region
         Given Live TV Claro TV
 
     @lineup @lineup_epg
-    Scenario Outline:
+    Scenario Outline: Revisar Lineup desde EPG
         Given usuario con EPG abierta en '<region>' UAT
         When   usuario revisa lineup y compara contra lineup oficial en PROD canal por canal
         Then  usuario debe ver que '<lineup_UAT>' es igual a '<lineup_PROD>'
@@ -20,7 +20,7 @@ Feature: Revisar lineup (lista de canales) por region
 
 
     @lineup @lineup_miniepg
-    Scenario Outline:
+    Scenario Outline: Revisar Lineup desde miniEPG
         Given usuario con miniEPG abierta en '<region>' UAT
         When   usuario revisa lineup en UAT y compara contra lineup desde PROD canal por canal
         Then  usuario debe ver que '<lineup_UAT>' es igual a '<lineup_PROD>'

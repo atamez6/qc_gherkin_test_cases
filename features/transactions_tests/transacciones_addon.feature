@@ -3,7 +3,7 @@ Feature: Transacciones todos los ADDONS desde Plan Selector
   Background: 
     Given Pantalla Plan selector 
 
-  Scenario Outline:
+  Scenario Outline: Transaccion de suscripcion a addon
     Given usuario con "<type_MDP>"  y sin suscripciones de addons
     When  usuario realiza suscripcion de "<addon>" desde botón "Suscribete" con costo "<costo_addon>"
     And   usuario confirma la suscripcion en pantalla de "<checkout_estas_por__contratar>" con costo "<costo_addon>"

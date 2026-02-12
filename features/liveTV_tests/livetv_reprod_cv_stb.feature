@@ -15,7 +15,7 @@ Feature: Reproduccion correcta de todos los canales en Live TV
         Then playback debe ser exitoso en cada canal
         
 
-        Examples: lineup UAT
+        Examples: lineup_epg_regiones.csv
         |region                 |lineup_UAT                     |
         #EJ|mexico                 |lineup_mx                      |
         
@@ -27,7 +27,7 @@ Feature: Reproduccion correcta de todos los canales en Live TV
         When usuario itera por todos los canales de '<lineup_UAT>' seleccionando un evento pasado
         Then playback del evento pasado debe ser exitoso en cada canal
 
-        Examples: lineup UAT
+        Examples: lineup_epg_regiones.csv
         |region                 |lineup_UAT                     |
         #|mexico                 |lineup_mx                      |
         #|colombia               |lineup_co                      |
