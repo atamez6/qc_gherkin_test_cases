@@ -2,6 +2,7 @@ Feature: Revisar lineup (lista de canales) por region
     Como usuario de Live TV
     Quiero revisar el lineup de canales por region
     Para validar que el lineup mostrado en UAT es igual al lineup mostrado en PROD
+    TEST POST VENTANA(SUBIDA CANALES UAT A PROD)
 
     Background:
         Given Live TV Claro TV
